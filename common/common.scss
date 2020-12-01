@@ -1,14 +1,17 @@
-div[class^="category-title-header"] .category-title-contents .category-icon-widget .category-icon .d-icon {
-  width: 1.7em;
-  height: 1.7em;
-}
-.category-banner {
+div[class^="category-title-header"] {
   .category-title-contents {
     color: var(--secondary, $secondary);
-  }
+    .category-icon-widget {
+		  .category-icon {
+			  .d-icon {
+				  width: 1.7em !important;
+					height: 1.7em !important;
+					color: var(--secondary, $secondary);
+				}
+			}
+		}
+	}
 }
 .category-list {
-  .category-icon {
-    color: var(--primary-high, $primary-high) !important;
-  }
+	.category-icon { color: var(--primary-high, $primary-high) !important;
 }
