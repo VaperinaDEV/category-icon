@@ -4,10 +4,12 @@ div[class^="category-title-header"] {
     .category-title {
       font-size: 1.7em;
       .category-icon-widget {
-        .category-icon .d-icon {
-          height: 1.7em;
-          width: 1.7em;
-	  color: var(--secondary, $secondary);
+        .category-icon {
+	  .d-icon {
+            height: 1.7em;
+            width: 1.7em;
+	    color: var(--secondary, $secondary);
+	  }	  
 	}
       }
     }
